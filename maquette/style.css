@@ -1,0 +1,78 @@
+ @font-face {
+
+font-family: 'Levenim MT';
+
+src: local('Levenim MT'), ('Levenim MT')
+
+url('LevenimMT.otf') format('opentype');
+
+}
+
+body{
+  font-family: "Levenim MT";
+  color: white;
+  background-color: black;
+/*  background-image: url(./cote.svgz);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 25%;*/
+  }
+.decoration-right{
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25%;
+}
+.white-back{
+  background-color: white;
+}
+.logo img{
+  height: 17em;
+  margin-bottom: 10px;
+  }
+header .menu-container h2{
+  font-size: 28.5px;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: center;
+}
+.menu-container{
+  margin-left: 20px;
+}
+header .menu-container h1{
+  font-size: 700%;
+  font-weight: normal;
+  line-height: 1em;
+  opacity: 0.1;
+}
+header .title-container{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.black-strip{
+  background-color: black;
+  color: white;
+  width: 80%;
+  margin: auto;
+  min-height: 10em;
+  padding: 1em;
+}
+.black-strip li{
+  padding-bottom: 1em;
+}
+.black-strip ul{
+  list-style: none;
+  font-size: 1.3em;
+  line-height: 2em;
+}
+.main-links .btn-block{
+  margin-top: 40%;
+}
+.btn-lm{
+  background: black;
+  color: white;
+  font-size: 1.7em;
+  text-shadow: none;
+  line-height: 1.7em;
+}
