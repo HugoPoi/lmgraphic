@@ -2,9 +2,7 @@
 
 font-family: 'Levenim MT';
 
-src: local('Levenim MT'), ('Levenim MT')
-
-url('LevenimMT.otf') format('opentype');
+src: local('Levenim MT'), url('./LevenimMT.ttf');
 
 }
 
@@ -18,7 +16,7 @@ body{
   position: absolute;
   right: 0;
   top: 0;
-  width: 25%;
+  width: 28%;
   z-index: 10;
   pointer-events: none;
 }
@@ -26,7 +24,7 @@ body{
   background-color: white;
 }
 .graphiti{
-  background-image: url('./texture-graphiti.svgz');
+  background-image: url('./texture-graphiti2.svg');
   background-repeat:  no-repeat;
   background-size: contain;
   z-index: 9;
@@ -78,6 +76,7 @@ header .title-container{
   list-style: none;
   font-size: 1.3em;
   line-height: 2em;
+  margin-top: 85px;
 }
 .main-links .btn-block{
   margin-top: 40%;
@@ -116,4 +115,10 @@ select{
   font-family: Levenim MT;
   font-size: 1.1em;
   font-weight: bold;
+}
+
+.porte-folio img {
+  margin-top: 3em;
+  margin-right: 3em;
+  width: 28%;
 }
